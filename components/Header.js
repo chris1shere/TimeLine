@@ -7,7 +7,7 @@ export default function Header({ name,email }) {
       <p className="text-2xl dark:text-white text-center">
       <Link href="/">
           <a>{name}</a>
-          <a href={`mailto:${email}`}>{email}</a>
+          <a>{email}</a>
         </Link>
       </p>
     </header>
