@@ -2,9 +2,6 @@ export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
     : 'Pokuong Lao';
-    const email = process.env.BLOG_NAME
-    ? decodeURI(process.env.BLOG_NAME)
-    : 'pokuonglao123@gmail.com';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
     : 'Portfolio';
@@ -14,7 +11,6 @@ export const getGlobalData = () => {
 
   return {
     name,
-    email,
     blogTitle,
     footerText,
   };
