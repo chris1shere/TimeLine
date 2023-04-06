@@ -9,7 +9,7 @@ export default function Header({ name, email  }) {
           <a>{name}</a>
         </Link>
         <br />
-        <a href={`mailto:${email}`}>{email}</a>
+        <a>pokuonglao123@gmail.com</a>
       </p>
     </header>
   );
