@@ -5,7 +5,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en" className="theme-compiled">
-        <Head />
+        <Head>
+        <script src="https://cdn.jsdelivr.net/npm/three@0.133.2/build/three.min.js"></script>
+        </Head>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
